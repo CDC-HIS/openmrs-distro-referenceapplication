@@ -33,35 +33,24 @@
       }
     },
     "logo": {
-      "src": "ethiohri_logo_dark.svg"
+      "src": "ethiohri_logo_light.svg"
     }
   },
-  "openmrs-esm-ohri-core-app": {
+  "@ohri/openmrs-esm-ohri-core-app": {
     "extensionSlots": {
       "dashboard-slot": {
         "remove": ["hiv-dashboard-items", "covid-dashboard-items"]
       }
     }
   },
-  "openmrs-esm-ohri-covid-app": {
-    "extensionSlots": {
-      "ohri-covid-patient-chart-slot": {
-        "remove": [
-          "covid-assessments-dashboard",
-          "covid-lab-results",
-          "covid-vaccinations-dashboard"
-        ]
-      }
-    }
-  },
-  "openmrs-esm-ohri-cervical-cancer-app": {
+  "@ohri/openmrs-esm-ohri-cervical-cancer-app": {
     "extensionSlots": {
       "cervical-cancer-slot": {
         "remove": ["cacx-visits-dashboard", "cacx-appointments-dashboard"]
       }
     }
   },
-  "openmrs-esm-ohri-hiv-app": {
+  "@ohri/openmrs-esm-ohri-hiv-app": {
     "extensionSlots": {
       "ohri-hiv-care-and-treatment-slot": {
         "remove": [
@@ -86,12 +75,12 @@
   },
   "@openmrs/esm-primary-navigation-app": {
     "logo": {
-      "src": "ethiohri_logo_dark.svg"
+      "src": "ethiohri_logo_light.svg"
     }
   },
   "@openmrs/esm-login-app": {
     "logo": {
-      "src": "ethiohri_logo_light.svg"
+      "src": "ethiohri_logo_dark.svg"
     }
   },
   "@openmrs/esm-patient-registration-app": {
