@@ -20,12 +20,6 @@
       <requiredInHierarchy>true</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
-      <field>ADDRESS_1</field>
-      <nameMapping>impl.commune</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>true</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
       <field>CITY_VILLAGE</field>
       <nameMapping>Location.village</nameMapping>
       <sizeMapping>40</sizeMapping>

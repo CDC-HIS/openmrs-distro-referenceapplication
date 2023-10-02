@@ -8,12 +8,14 @@ WORKDIR /app
 
 COPY spa-build-config.json .
 
+COPY ethiohri-configuration.json .
+
 ARG CACHE_BUST
 RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} assemble --manifest --mode config --config spa-build-config.json --target ./spa
-RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} build --build-config spa-build-config.json --target ./spa
+RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} build --config-url ethiohri-configuration.json --build-config spa-build-config.json --target ./spa
 COPY images/ethiohri_logo_dark.svg ./spa/ethiohri_logo_dark.svg
 COPY images/ethiohri_logo_light.svg ./spa/ethiohri_logo_light.svg
-COPY ethiohri-configuration.json ./spa/ohri-config.json
+COPY ethiohri-configuration.json ./spa/ethiohri-configuration.json
 
 FROM nginx:1.23-alpine
 

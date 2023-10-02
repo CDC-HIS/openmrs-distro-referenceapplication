@@ -1,2 +1,2 @@
 Uuid,Void/Retire,Mapping code,Mapping source,Metadata class name,Metadata Uuid,_order:2000
-b2a94269-5e0e-46ea-b9b7-9f951486c987,,emr.primaryIdentifierType,org.openmrs.module.emrapi,org.openmrs.PatientIdentifierType,05a29f94-c0ed-11e2-94be-8c13b969e334,
+bc5109ef-9b74-4c11-bcf6-49583bb1cd62,,emr.primaryIdentifierType,org.openmrs.module.emrapi,org.openmrs.PatientIdentifierType, b4d66522-11fc-45c7-83e3-39a1af21ae0d,
