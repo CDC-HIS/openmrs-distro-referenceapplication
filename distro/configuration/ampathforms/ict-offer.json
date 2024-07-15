@@ -1,0 +1,203 @@
+{
+    "name": "POC ICT Offer",
+    "version": "1.0",
+    "published": true,
+    "retired": false,
+    "encounter": "ICT Offer",
+    "processor": "EncounterFormProcessor",
+    "referencedForms": [],
+    "uuid": "23b08733-6d26-48b5-bict-general25e1e",
+    "encounterType": "23b08733-6d26-48b5-b135-dac294e25e1e",
+    "allowUnspecifiedAll": true,
+    "pages": [
+        {
+            "label": "POC ICT Offer",
+            "sections": [
+                {
+                    "label": "ICT Offer",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Offered",
+                            "type": "obs",
+                            "required": false,
+                            "id": "offered",
+                            "questionOptions": {
+                                "rendering": "radio",
+                                "concept": "eef33554-8844-48ed-abec-a06e4918b7fe",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                        "label": "Yes"
+                                    },
+                                    {
+                                        "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                        "label": "No"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label": "Offered date",
+                            "type": "obs",
+                            "required": false,
+                            "hide": {
+                                "hideWhenExpression": "offered !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                            },
+                            "id": "offeredDate",
+                            "validators": [
+								{
+                                    "type": "date",
+                                    "allowFutureDates": "false"
+                                }
+							],
+                            "questionOptions": {
+                                "rendering": "date",
+                                "concept": "a7c606b1-9f3e-4095-815a-3a623dc738e1",
+                                "conceptMappings": [],
+                                "answers": []
+                            }
+                        },
+                        {
+                            "label": "Prioritization for ICT",
+                            "type": "obs",
+                            "required": false,
+                            "id": "priorityCriteria",
+                            "hide": {
+                                "hideWhenExpression": "offered !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                            },
+                            "questionOptions": {
+                              "rendering": "select",
+                              "concept": "8534a956-49e8-42d9-82c4-33e51429265d",
+                              "conceptMappings": [],
+                              "answers": [
+                                {
+                                    "concept": "4693bef1-4d6b-4546-b2c9-1a3409b6158f",
+                                    "label": "Newly diagnosed"
+                                },
+                                {
+                                  "concept": "cd44c2af-e628-455f-8826-7aab004bd100",
+                                  "label": "Enrolled at PMTCT (Prevention of mother-to-child transmission of HIV)"
+                                },
+                                {
+                                  "concept": "41a9a67e-ce27-4a33-be91-0725209c69b0",
+                                  "label": "Key population (FSW)"
+                                },
+                                {
+                                  "concept": "c1c0c92c-521c-454c-bfd2-52db5b308f6a",
+                                  "label": "PLHIV (People living with HIV) incare with STI"
+                                },
+                                {
+                                  "concept": "bde58790-d3fc-40d6-bcce-f728105f91cf",
+                                  "label": "PLHIV (People living with HIV) restart ART & adult"
+                                },
+                                {
+                                  "concept": "7b370f0a-61e2-4cc4-99c1-f38d96d7cee0",
+                                  "label": "PLHIV (People living with HIV) with HVL & adult"
+                                },
+                                {
+                                    "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                    "label": "Other"
+                                }
+                              ]
+                            },
+                            "validators": []
+                          },
+                        {
+                            "label": "Accepted",
+                            "type": "obs",
+                            "required": false,
+                            "id": "accepted",
+                            "hide": {
+                                "hideWhenExpression": "offered !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                            },
+                            "questionOptions": {
+                                "rendering": "radio",
+                                "concept": "fdcbadef-40c5-486a-a30b-a88477ab90ae",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                        "label": "Yes"
+                                    },
+                                    {
+                                        "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                        "label": "No"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label": "Accepted date",
+                            "type": "obs",
+                            "required": false,
+                            "hide": {
+                                "hideWhenExpression": "accepted !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                            },
+                            "id": "acceptedDate",
+                            "validators": [
+								{
+                                    "type": "date",
+                                    "allowFutureDates": "false"
+                                }
+							],
+                            "questionOptions": {
+                                "rendering": "date",
+                                "concept": "da8e65a1-04ee-44a0-be4b-d2bc4f002aa4",
+                                "conceptMappings": [],
+                                "answers": []
+                            }
+                        },
+                        {
+                            "label": "If not accepted, indicate",
+                            "type": "obs",
+                            "required": false,
+                            "hide": {
+                                "hideWhenExpression": "accepted !== '1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                            },
+                            "id": "notAccepted",
+                            "questionOptions": {
+                                "rendering": "checkbox",
+                                "concept": "59fa6f41-a1d0-45bc-af79-643b2e7dcd23",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "3c2c53ec-efa8-4254-bb0c-202c4bb9d750",
+                                        "label": "Afraid IPV"
+                                    },
+                                    {
+                                        "concept": "015d54ca-e4e8-4165-880a-c8a14cf9e714",
+                                        "label": "No data source"
+                                    },
+                                    {
+                                        "concept": "12283dd2-ec9d-4a41-b672-1076eb1c2858",
+                                        "label": "No family members"
+                                    },
+                                    {
+                                        "concept": "8611a257-6b96-464f-8ae2-410c9c692c55",
+                                        "label": "No reason"
+                                    },
+                                    {
+                                        "concept": "7a203f1c-3ff1-492d-af7d-d804d7d1f84a",
+                                        "label": "No time for elicitation"
+                                    },
+                                    {
+                                        "concept": "6369d2cb-bf3d-44e4-8cd3-639b40bd8ce1",
+                                        "label": "Preferred other HF"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "availableIntents": [
+		{
+			"intent": "*",
+			"display": "default_intent"
+		}
+	]
+}
