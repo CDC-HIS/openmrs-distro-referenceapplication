@@ -1,6 +1,17 @@
 {
   "@openmrs/esm-patient-chart-app": {
     "extensionSlots": {
+      "patient-info-slot": {
+        "remove": ["patient-vitals-info"]
+      },
+      "action-menu-patient-chart-items-slot": {
+        "remove": [
+          "clinical-form-action-menu",
+          "order-basket-action-menu",
+          "patient-lists-action-menu",
+          "visit-note-nav-button"
+        ]
+      },
       "patient-chart-summary-dashboard-slot": {
         "remove": ["vitals-overview-widget", "active-medications-widget"]
       },
@@ -14,7 +25,14 @@
           "conditions-summary-dashboard",
           "offline-tools-patient-chart-actions-dashboard-link",
           "results-summary-dashboard",
-          "test-results-summary-dashboard"
+          "test-results-summary-dashboard",
+          "clinical-views-divider",
+          "encounters-summary-dashboard",
+          "immunization-summary-dashboard",
+          "medications-summary-dashboard",
+          "patient-appointments-summary-dashboard",
+          "patient-orders-summary-dashboard",
+          "programs-summary-dashboard"
         ]
       }
     },
@@ -46,6 +64,11 @@
     }
   },
   "@openmrs/esm-patient-registration-app": {
+    "extensionSlots": {
+      "capture-patient-photo-slot": {
+        "remove": ["capture-photo-widget"]
+      }
+    },
     "sections": ["demographics", "contact", "relationships"],
     "Translation overrides": {
       "en": {
@@ -111,7 +134,7 @@
         "id": "registrationDate",
         "label": "Registration date",
         "type": "obs",
-        "uuid": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "uuid": "dadc86a8-1e44-4a6d-91c2-e3b54089b54c",
         "validation": {
           "required": true
         }

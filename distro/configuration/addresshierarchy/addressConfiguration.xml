@@ -4,7 +4,7 @@
             <field>COUNTRY</field>
             <nameMapping>Location.country</nameMapping>
             <sizeMapping>40</sizeMapping>
-            <elementDefault>addresshierarchy.ethiopia</elementDefault>
+            <elementDefault>Ethiopia</elementDefault>
             <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
         <addressComponent>
@@ -27,9 +27,11 @@
         </addressComponent>
     </addressComponents>
     <lineByLineFormat>
-        <string>cityVillage, address1</string>
-        <string>countyDistrict, stateProvince</string>
         <string>country</string>
+        <string>stateProvince</string>
+        <string>countyDistrict</string>
+        <string>cityVillage</string>
+
     </lineByLineFormat>
     <addressHierarchyFile>
         <filename>addressHierarchy.csv</filename>

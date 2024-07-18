@@ -187,6 +187,7 @@ Ethiopia,Amhara,Awi Zone,Guangua Woreda
 Ethiopia,Amhara,Awi Zone,Injibara Town Woreda
 Ethiopia,Amhara,Awi Zone,Jawi Woreda
 Ethiopia,Amhara,Awi Zone,Zigem Town Woreda
+Ethiopia,Amhara,Bahir Dar Town Adminstration,Bahir Dar Town Adminstration
 Ethiopia,Amhara,Central Gondar Zone,Alefa Woreda
 Ethiopia,Amhara,Central Gondar Zone,Central Armacho Woreda
 Ethiopia,Amhara,Central Gondar Zone,Chilga Woreda
@@ -205,6 +206,7 @@ Ethiopia,Amhara,Central Gondar Zone,Wogera Woreda
 Ethiopia,Amhara,Debre Birhan THO,Debrebrehan Town Woreda
 Ethiopia,Amhara,Debre Markos THO,Debere Markos Town Woreda
 Ethiopia,Amhara,Debretabor THO,Debretabor Town Woreda
+Ethiopia,Amhara,Dessie Town Adminstration,Dessie Town Adminstration
 Ethiopia,Amhara,East Gojam Zone,Aneded Woreda
 Ethiopia,Amhara,East Gojam Zone,Awabel Woreda
 Ethiopia,Amhara,East Gojam Zone,Baso Liben Woreda
@@ -227,6 +229,7 @@ Ethiopia,Amhara,East Gojam Zone,Sedie Woreda
 Ethiopia,Amhara,East Gojam Zone,Shebel Berenta Woreda
 Ethiopia,Amhara,East Gojam Zone,Sinan Woreda
 Ethiopia,Amhara,East Gojam Zone,Yejubie Town
+Ethiopia,Amhara,Gondar Town Adminstration,Gondar Town Adminstration
 Ethiopia,Amhara,Kombolcha THO,Kombolcha Town Woreda
 Ethiopia,Amhara,North Gonder Zone,Adi Arkay Woreda
 Ethiopia,Amhara,North Gonder Zone,Beyeda Woreda
@@ -391,6 +394,86 @@ Ethiopia,Beneshangul Gumuz,Metekel Zone,Guba Woreda
 Ethiopia,Beneshangul Gumuz,Metekel Zone,Mandura Woreda
 Ethiopia,Beneshangul Gumuz,Metekel Zone,Pawi Woreda
 Ethiopia,Beneshangul Gumuz,Metekel Zone,Wenbera Woreda
+Ethiopia,Central Ethiopia,East Gurage,Butajira Town Administration
+Ethiopia,Central Ethiopia,East Gurage,East Meskan
+Ethiopia,Central Ethiopia,East Gurage,Enseno Town Administration
+Ethiopia,Central Ethiopia,East Gurage,Meskan
+Ethiopia,Central Ethiopia,East Gurage,Sodo
+Ethiopia,Central Ethiopia,East Gurage,South Sodo
+Ethiopia,Central Ethiopia,Gurage,Abeshge
+Ethiopia,Central Ethiopia,Gurage,Agena Town Administration
+Ethiopia,Central Ethiopia,Gurage,Areket Town Administration
+Ethiopia,Central Ethiopia,Gurage,Cheha
+Ethiopia,Central Ethiopia,Gurage,Emdibir Town Administration
+Ethiopia,Central Ethiopia,Gurage,Enidguagn
+Ethiopia,Central Ethiopia,Gurage,Enor
+Ethiopia,Central Ethiopia,Gurage,Enor Enner Meger
+Ethiopia,Central Ethiopia,Gurage,Ezha
+Ethiopia,Central Ethiopia,Gurage,Gedebano Gutazer Welene
+Ethiopia,Central Ethiopia,Gurage,Geta
+Ethiopia,Central Ethiopia,Gurage,Gumer
+Ethiopia,Central Ethiopia,Gurage,Milhurna Aklil
+Ethiopia,Central Ethiopia,Gurage,Wolkite Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Ameka
+Ethiopia,Central Ethiopia,Hadiya,Ann Lemo
+Ethiopia,Central Ethiopia,Hadiya,Bonosha Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Duna
+Ethiopia,Central Ethiopia,Hadiya,East Badawacho
+Ethiopia,Central Ethiopia,Hadiya,Fonko Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Gibe
+Ethiopia,Central Ethiopia,Hadiya,Gimbichau Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Gombora
+Ethiopia,Central Ethiopia,Hadiya,Homecho Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Hosaena Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Jajura Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Lemo
+Ethiopia,Central Ethiopia,Hadiya,Mirab Soro
+Ethiopia,Central Ethiopia,Hadiya,Misha
+Ethiopia,Central Ethiopia,Hadiya,Shashago
+Ethiopia,Central Ethiopia,Hadiya,Shone Town Administration
+Ethiopia,Central Ethiopia,Hadiya,Siraro Badewacho
+Ethiopia,Central Ethiopia,Hadiya,Soro
+Ethiopia,Central Ethiopia,Hadiya,West Badewacho
+Ethiopia,Central Ethiopia,Halaba,Atotii Ulo
+Ethiopia,Central Ethiopia,Halaba,Halaba Kulito Town Administration
+Ethiopia,Central Ethiopia,Halaba,Weeraa
+Ethiopia,Central Ethiopia,Halaba,Weeraa Dijjoo
+Ethiopia,Central Ethiopia,Kebena Special Woreda,Kebena
+Ethiopia,Central Ethiopia,Kembata,Adilo Zuria
+Ethiopia,Central Ethiopia,Kembata,Angacha
+Ethiopia,Central Ethiopia,Kembata,Angacha Town Administration
+Ethiopia,Central Ethiopia,Kembata,Demboya
+Ethiopia,Central Ethiopia,Kembata,Demboya Town Administration
+Ethiopia,Central Ethiopia,Kembata,Doyo Gena
+Ethiopia,Central Ethiopia,Kembata,Durame Town Administration
+Ethiopia,Central Ethiopia,Kembata,Hadero Town Administration
+Ethiopia,Central Ethiopia,Kembata,Hadero Tunto Zuriya
+Ethiopia,Central Ethiopia,Kembata,Kacha Birra
+Ethiopia,Central Ethiopia,Kembata,Kedida Gamela 
+Ethiopia,Central Ethiopia,Kembata,Shinshicho Town Administration 
+Ethiopia,Central Ethiopia,Mareko Special Woreda,Koshe Town Administration
+Ethiopia,Central Ethiopia,Mareko Special Woreda,Mareko
+Ethiopia,Central Ethiopia,Silte,Alemgebeya Town Administration
+Ethiopia,Central Ethiopia,Silte,Alicho Wiriro
+Ethiopia,Central Ethiopia,Silte,Dalocha
+Ethiopia,Central Ethiopia,Silte,Dalocha Town Administration
+Ethiopia,Central Ethiopia,Silte,East Azernet Berbere
+Ethiopia,Central Ethiopia,Silte,East Silti
+Ethiopia,Central Ethiopia,Silte,Hulbarag
+Ethiopia,Central Ethiopia,Silte,Kibet Town Administration
+Ethiopia,Central Ethiopia,Silte,Lanfuro
+Ethiopia,Central Ethiopia,Silte,Mitto
+Ethiopia,Central Ethiopia,Silte,Sankura
+Ethiopia,Central Ethiopia,Silte,Tora Town Administration
+Ethiopia,Central Ethiopia,Silte,Werabe Town Administration
+Ethiopia,Central Ethiopia,Silte,West Azernet
+Ethiopia,Central Ethiopia,Silte,Worabe Town Administration
+Ethiopia,Central Ethiopia,Tembaro Special WorHO,Mudula Town Administration
+Ethiopia,Central Ethiopia,Tembaro Special WorHO,Tembaro
+Ethiopia,Central Ethiopia,Yem,Deri Saja Zuria
+Ethiopia,Central Ethiopia,Yem,Fofa
+Ethiopia,Central Ethiopia,Yem,Saja Town Administration
+Ethiopia,Central Ethiopia,Yem,Toba
 Ethiopia,Dire Dawa,Dire Dawa,Addis Ketema Operational Woreda Health Office
 Ethiopia,Dire Dawa,Dire Dawa,Biyoawale Operational Woreda Health Office
 Ethiopia,Dire Dawa,Dire Dawa,Dire Dawa Operational Woreda Health Office
@@ -423,7 +506,6 @@ Ethiopia,Harari,Harari Zone,Hakim Woreda
 Ethiopia,Harari,Harari Zone,Shenkor Woreda
 Ethiopia,Harari,Harari Zone,Sofi Woreda
 Ethiopia,Oromiya,Adama Special Zone Zone,Adama Town
-Ethiopia,Oromiya,Ambo Town Zone,Ambo Town
 Ethiopia,Oromiya,Ambo Town Zone,Ambo Town
 Ethiopia,Oromiya,Arsi Zone,Amigna Woreda
 Ethiopia,Oromiya,Arsi Zone,Aseko Woreda
@@ -710,7 +792,6 @@ Ethiopia,Oromiya,West Guji Zone,Bule Hora Town Woreda
 Ethiopia,Oromiya,West Guji Zone,Bule Hora Woreda
 Ethiopia,Oromiya,West Guji Zone,Dugda Dawa Woreda
 Ethiopia,Oromiya,West Guji Zone,Gelana Woreda
-Ethiopia,Oromiya,West Guji Zone,Gelana Woreda
 Ethiopia,Oromiya,West Guji Zone,Hambela Wemena Woreda
 Ethiopia,Oromiya,West Guji Zone,Kercha Town
 Ethiopia,Oromiya,West Guji Zone,Malka Soda Woreda
@@ -780,196 +861,45 @@ Ethiopia,Oromiya,West Wellega Zone,Qondala Woreda
 Ethiopia,Oromiya,West Wellega Zone,Seyo Nole Woreda
 Ethiopia,Oromiya,West Wellega Zone,Yubdo Woreda
 Ethiopia,Oromiya,Woliso Town Zone,Woliso Town
-Ethiopia,Sidama,Hawassa City Administration,Tula Woreda
-Ethiopia,Sidama,Sidama Zone,Aleta Chuko Town
-Ethiopia,Sidama,Sidama Zone,Aleta Chuko Town
-Ethiopia,Sidama,Sidama Zone,Aleta Chuko Woreda
-Ethiopia,Sidama,Sidama Zone,Aleta Wendo Town Woreda
-Ethiopia,Sidama,Sidama Zone,Aleta Wendo Town Woreda
-Ethiopia,Sidama,Sidama Zone,Aleta Wondo Woreda
-Ethiopia,Sidama,Sidama Zone,Arbegona Woreda
-Ethiopia,Sidama,Sidama Zone,Aroresa Woreda
-Ethiopia,Sidama,Sidama Zone,Bensa Woreda
-Ethiopia,Sidama,Sidama Zone,Bilate Zuria Woreda
-Ethiopia,Sidama,Sidama Zone,Bona Zuriya Woreda
-Ethiopia,Sidama,Sidama Zone,Boricha Woreda (Sidama)
-Ethiopia,Sidama,Sidama Zone,Bura Woreda
-Ethiopia,Sidama,Sidama Zone,Bursa Woreda
-Ethiopia,Sidama,Sidama Zone,Chabe Gambeltu Woreda
-Ethiopia,Sidama,Sidama Zone,Chire Woreda
-Ethiopia,Sidama,Sidama Zone,Chirone Woreda
-Ethiopia,Sidama,Sidama Zone,Daela Woreda
-Ethiopia,Sidama,Sidama Zone,Dale Woreda
-Ethiopia,Sidama,Sidama Zone,Dara Otilcho Woreda
-Ethiopia,Sidama,Sidama Zone,Dara Woreda
-Ethiopia,Sidama,Sidama Zone,Darara Woreda
-Ethiopia,Sidama,Sidama Zone,Daya Town Woreda
-Ethiopia,Sidama,Sidama Zone,Gorche Woreda
-Ethiopia,Sidama,Sidama Zone,Hawasa Zuria Woreda
-Ethiopia,Sidama,Sidama Zone,Hawassa Town Woreda
-Ethiopia,Sidama,Sidama Zone,Hawella Woreda
-Ethiopia,Sidama,Sidama Zone,Hoko Woreda
-Ethiopia,Sidama,Sidama Zone,Hula Woreda
-Ethiopia,Sidama,Sidama Zone,Leku Town Woreda
-Ethiopia,Sidama,Sidama Zone,Loko Abaya Woreda
-Ethiopia,Sidama,Sidama Zone,Malga Woreda
-Ethiopia,Sidama,Sidama Zone,Shebedino Woreda
-Ethiopia,Sidama,Sidama Zone,Teticha Woreda
-Ethiopia,Sidama,Sidama Zone,Wendo Genet Woreda
-Ethiopia,Sidama,Sidama Zone,Wensho Woreda
-Ethiopia,Sidama,Sidama Zone,Wondo Genet Town Woreda
-Ethiopia,Sidama,Sidama Zone,Yirga Alem Town Woreda
-Ethiopia,SNNPR,Ale Special Woreda Zone,Ale Special Woreda
-Ethiopia,SNNPR,Amaro Special Woreda Zone,Amaro Special Woreda
-Ethiopia,SNNPR,Amaro Special Woreda Zone,Kelle Town Administration
-Ethiopia,SNNPR,Basketo Zone,Basketo Special Woreda
-Ethiopia,SNNPR,Basketo Zone,Laska Town Administration
-Ethiopia,SNNPR,Burji Special Woreda Zone,Burji Special Woreda
-Ethiopia,SNNPR,Derashe Special Woreda Zone,Derashe Special Woreda
-Ethiopia,SNNPR,Derashe Special Woreda Zone,Gidole Town Administration
-Ethiopia,SNNPR,Gamo Zone,Arba Minch Zuriya Woreda
-Ethiopia,SNNPR,Gamo Zone,Arbaminch Town Administration
-Ethiopia,SNNPR,Gamo Zone,Bonke Woreda
-Ethiopia,SNNPR,Gamo Zone,Boreda Woreda
-Ethiopia,SNNPR,Gamo Zone,Chencha Zuria
-Ethiopia,SNNPR,Gamo Zone,Chenicha Woreda
-Ethiopia,SNNPR,Gamo Zone,Deramalo Woreda
-Ethiopia,SNNPR,Gamo Zone,Dita Woreda
-Ethiopia,SNNPR,Gamo Zone,Gacho Baba Woreda
-Ethiopia,SNNPR,Gamo Zone,Garda Martha Woreda
-Ethiopia,SNNPR,Gamo Zone,Gerese Town Administration
-Ethiopia,SNNPR,Gamo Zone,Gerese Zuria
-Ethiopia,SNNPR,Gamo Zone,Kamba Zuria
-Ethiopia,SNNPR,Gamo Zone,Kemba Woreda
-Ethiopia,SNNPR,Gamo Zone,Kogota Woreda
-Ethiopia,SNNPR,Gamo Zone,Kucha Woreda
-Ethiopia,SNNPR,Gamo Zone,Kutcha Zuria Woreda
-Ethiopia,SNNPR,Gamo Zone,Mirab Abaya Woreda
-Ethiopia,SNNPR,Gamo Zone,Selamber Town Administration
-Ethiopia,SNNPR,Gedeo Zone,Bule Woreda
-Ethiopia,SNNPR,Gedeo Zone,Chelekleketu Town Administration
-Ethiopia,SNNPR,Gedeo Zone,Chorso Woreda
-Ethiopia,SNNPR,Gedeo Zone,Dilazuria Woreda
-Ethiopia,SNNPR,Gedeo Zone,Dilla Town Administration
-Ethiopia,SNNPR,Gedeo Zone,Gedeb Town Administration
-Ethiopia,SNNPR,Gedeo Zone,Gedeb Woreda
-Ethiopia,SNNPR,Gedeo Zone,Kochore Woreda
-Ethiopia,SNNPR,Gedeo Zone,Rape Woreda
-Ethiopia,SNNPR,Gedeo Zone,Wenago Woreda
-Ethiopia,SNNPR,Gedeo Zone,Yirga Chefe Woreda
-Ethiopia,SNNPR,Gedeo Zone,Yirgachefe Town Administration
-Ethiopia,SNNPR,Goffa Zone,Ayida Woreda
-Ethiopia,SNNPR,Goffa Zone,Beto Town Administration
-Ethiopia,SNNPR,Goffa Zone,Bulki Town Administration
-Ethiopia,SNNPR,Goffa Zone,Denibu Gofa Woreda
-Ethiopia,SNNPR,Goffa Zone,Geze Gofa Woreda
-Ethiopia,SNNPR,Goffa Zone,Laha Town Administration
-Ethiopia,SNNPR,Goffa Zone,Melekoza Woreda
-Ethiopia,SNNPR,Goffa Zone,Melo Gada Woreda
-Ethiopia,SNNPR,Goffa Zone,Sawla Town Administration
-Ethiopia,SNNPR,Goffa Zone,Uba Debretsehay Woreda
-Ethiopia,SNNPR,Goffa Zone,Zala Woreda
-Ethiopia,SNNPR,Gurage Zone,Abeshege Woreda
-Ethiopia,SNNPR,Gurage Zone,Buee Town Administration
-Ethiopia,SNNPR,Gurage Zone,Butajira Town Administration
-Ethiopia,SNNPR,Gurage Zone,Cheha Woreda
-Ethiopia,SNNPR,Gurage Zone,East Meskan Woreda
-Ethiopia,SNNPR,Gurage Zone,Emdibir Town Administration
-Ethiopia,SNNPR,Gurage Zone,Enemor Ener Woreda
-Ethiopia,SNNPR,Gurage Zone,Enidguagn Woreda
-Ethiopia,SNNPR,Gurage Zone,Enor Enner Woreda
-Ethiopia,SNNPR,Gurage Zone,Ezha Woreda
-Ethiopia,SNNPR,Gurage Zone,Geta Woreda
-Ethiopia,SNNPR,Gurage Zone,Gumer Woreda
-Ethiopia,SNNPR,Gurage Zone,Gutazer G/Welene Woreda
-Ethiopia,SNNPR,Gurage Zone,Kebena Woreda
-Ethiopia,SNNPR,Gurage Zone,Mareqo Woreda
-Ethiopia,SNNPR,Gurage Zone,Meskan Woreda
-Ethiopia,SNNPR,Gurage Zone,Muhur Na Aklil Woreda
-Ethiopia,SNNPR,Gurage Zone,Sodo Woreda
-Ethiopia,SNNPR,Gurage Zone,South Sodo Woreda
-Ethiopia,SNNPR,Gurage Zone,Wolkite Town Administration
-Ethiopia,SNNPR,Hadiya Zone,Ameka Woreda
-Ethiopia,SNNPR,Hadiya Zone,Analemmo Woreda
-Ethiopia,SNNPR,Hadiya Zone,Duna Woreda
-Ethiopia,SNNPR,Hadiya Zone,Gibe Woreda
-Ethiopia,SNNPR,Hadiya Zone,Gimbichau Town
-Ethiopia,SNNPR,Hadiya Zone,Gombora Woreda
-Ethiopia,SNNPR,Hadiya Zone,Hosaena Town Administration
-Ethiopia,SNNPR,Hadiya Zone,Jajura Town Administration
-Ethiopia,SNNPR,Hadiya Zone,Lemmo Woreda
-Ethiopia,SNNPR,Hadiya Zone,Mirab Badawocho Woreda
-Ethiopia,SNNPR,Hadiya Zone,Mirab Soro Woreda
-Ethiopia,SNNPR,Hadiya Zone,Misha Woreda
-Ethiopia,SNNPR,Hadiya Zone,Misrak Badawocho Woreda
-Ethiopia,SNNPR,Hadiya Zone,Shashago Woreda
-Ethiopia,SNNPR,Hadiya Zone,Shone Town Administration
-Ethiopia,SNNPR,Hadiya Zone,Siraro Badewacho Woreda
-Ethiopia,SNNPR,Hadiya Zone,Soro Woreda
-Ethiopia,SNNPR,Halaba special Zone,Halaba Special Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Adilo Zuria
-Ethiopia,SNNPR,Kembata Timbaro Zone,Anigacha Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Daniboya Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Doyo Gena Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Durame Town Administration
-Ethiopia,SNNPR,Kembata Timbaro Zone,Hadaro Tunito Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Kacha Bira Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Kedida Gamela Woreda
-Ethiopia,SNNPR,Kembata Timbaro Zone,Shinshicho Town Administration
-Ethiopia,SNNPR,Kembata Timbaro Zone,Timbaro Woreda
-Ethiopia,SNNPR,Konso Zone,Karat Town Administration
-Ethiopia,SNNPR,Konso Zone,Karat Zuria
-Ethiopia,SNNPR,Konso Zone,Kena Woreda
-Ethiopia,SNNPR,Konso Zone,Konso Special Woreda
-Ethiopia,SNNPR,Konso Zone,Segen Zuria
-Ethiopia,SNNPR,Silte Zone,Alicho Woriro Woreda
-Ethiopia,SNNPR,Silte Zone,Dalocha Woreda
-Ethiopia,SNNPR,Silte Zone,East Silti Woreda
-Ethiopia,SNNPR,Silte Zone,Hulbareg Woreda
-Ethiopia,SNNPR,Silte Zone,Kibet Town Administration
-Ethiopia,SNNPR,Silte Zone,Lanifaro Woreda
-Ethiopia,SNNPR,Silte Zone,Mirab Azernet Berbere Woreda
-Ethiopia,SNNPR,Silte Zone,Misirak Azerenet Berbere Woreda
-Ethiopia,SNNPR,Silte Zone,Mitto Woreda
-Ethiopia,SNNPR,Silte Zone,Sankura Woreda
-Ethiopia,SNNPR,Silte Zone,Siltie Woreda
-Ethiopia,SNNPR,Silte Zone,Tora Town Administration
-Ethiopia,SNNPR,Silte Zone,Worabe Town Administration
-Ethiopia,SNNPR,South Omo Zone,Baka Dawula Woreda
-Ethiopia,SNNPR,South Omo Zone,Bena Tsemay Woreda
-Ethiopia,SNNPR,South Omo Zone,Dasenech Woreda
-Ethiopia,SNNPR,South Omo Zone,Hamer Woreda
-Ethiopia,SNNPR,South Omo Zone,Jinka Town Administration
-Ethiopia,SNNPR,South Omo Zone,Male Woreda
-Ethiopia,SNNPR,South Omo Zone,Ngangatom Woreda
-Ethiopia,SNNPR,South Omo Zone,Salamago Woreda
-Ethiopia,SNNPR,South Omo Zone,Semen Ari Woreda
-Ethiopia,SNNPR,South Omo Zone,South Ari Woreda
-Ethiopia,SNNPR,South Omo Zone,Woba Ari Woreda
-Ethiopia,SNNPR,Wolayita Zone,Abala Abaya Woreda
-Ethiopia,SNNPR,Wolayita Zone,Areka Town Administration
-Ethiopia,SNNPR,Wolayita Zone,Bayira Koysha Woreda
-Ethiopia,SNNPR,Wolayita Zone,Bodit Town Administration
-Ethiopia,SNNPR,Wolayita Zone,Boloso Sore Woreda
-Ethiopia,SNNPR,Wolayita Zone,Bolosso Bombe Woreda
-Ethiopia,SNNPR,Wolayita Zone,Damot Gale Woreda
-Ethiopia,SNNPR,Wolayita Zone,Damot Pulasa Woreda
-Ethiopia,SNNPR,Wolayita Zone,Damot Sore Woreda
-Ethiopia,SNNPR,Wolayita Zone,Damot Woyide Woreda
-Ethiopia,SNNPR,Wolayita Zone,Duguna Fanigo Woreda
-Ethiopia,SNNPR,Wolayita Zone,Gesuba Town Administration
-Ethiopia,SNNPR,Wolayita Zone,Gununo Hamus Town Administration
-Ethiopia,SNNPR,Wolayita Zone,Hobicha Woreda
-Ethiopia,SNNPR,Wolayita Zone,Humbo Woreda
-Ethiopia,SNNPR,Wolayita Zone,Kawo Koysha Woreda
-Ethiopia,SNNPR,Wolayita Zone,Kindo Didaye Woreda
-Ethiopia,SNNPR,Wolayita Zone,Kindo Koyisha Woreda
-Ethiopia,SNNPR,Wolayita Zone,Ofa Woreda
-Ethiopia,SNNPR,Wolayita Zone,Sodo Town Administration
-Ethiopia,SNNPR,Wolayita Zone,Sodo Zuriya Woreda
-Ethiopia,SNNPR,Wolayita Zone,Tebela Town Administration
-Ethiopia,SNNPR,Yem special Zone,Fofa Town Administration
-Ethiopia,SNNPR,Yem special Zone,Saja Town Administration
+Ethiopia,Sidama,Central Sidama,Arbegona
+Ethiopia,Sidama,Central Sidama,Dale
+Ethiopia,Sidama,Central Sidama,Darara
+Ethiopia,Sidama,Central Sidama,Loka Abaya
+Ethiopia,Sidama,Central Sidama,Shafamo
+Ethiopia,Sidama,Central Sidama,Wensho
+Ethiopia,Sidama,Central Sidama,Yirgalem Town Administration
+Ethiopia,Sidama,Eastern Sidama,Aroressa 
+Ethiopia,Sidama,Eastern Sidama,Bensa
+Ethiopia,Sidama,Eastern Sidama,Bona Town Administration
+Ethiopia,Sidama,Eastern Sidama,Bona Zuria
+Ethiopia,Sidama,Eastern Sidama,Bura
+Ethiopia,Sidama,Eastern Sidama,Chabe Gambeltu
+Ethiopia,Sidama,Eastern Sidama,Chire
+Ethiopia,Sidama,Eastern Sidama,Daela
+Ethiopia,Sidama,Eastern Sidama,Daye Town Administration
+Ethiopia,Sidama,Eastern Sidama,Hoko
+Ethiopia,Sidama,Hawassa City Administration,Hawassa Town
+Ethiopia,Sidama,Hawassa City Administration,Tula
+Ethiopia,Sidama,Northern Sidama,Bilate Zuria
+Ethiopia,Sidama,Northern Sidama,Borricha
+Ethiopia,Sidama,Northern Sidama,Gorche
+Ethiopia,Sidama,Northern Sidama,Hawassa Zuriya
+Ethiopia,Sidama,Northern Sidama,Hawella
+Ethiopia,Sidama,Northern Sidama,Leku Town Administration
+Ethiopia,Sidama,Northern Sidama,Melga
+Ethiopia,Sidama,Northern Sidama,Shebedino
+Ethiopia,Sidama,Northern Sidama,Wondo Genet Town Administration
+Ethiopia,Sidama,Northern Sidama,Wondogenet
+Ethiopia,Sidama,Southern  Sidama,Aleta Chuko
+Ethiopia,Sidama,Southern  Sidama,Aleta Chuko Town Administration
+Ethiopia,Sidama,Southern  Sidama,Aleta Wondo
+Ethiopia,Sidama,Southern  Sidama,Aleta Wondo Town Administration
+Ethiopia,Sidama,Southern  Sidama,Bursa
+Ethiopia,Sidama,Southern  Sidama,Chirone
+Ethiopia,Sidama,Southern  Sidama,Dara
+Ethiopia,Sidama,Southern  Sidama,Dara Otilcho
+Ethiopia,Sidama,Southern  Sidama,Hulla
+Ethiopia,Sidama,Southern  Sidama,Teticha
 Ethiopia,Somali,Afder Zone,Bare Woreda
 Ethiopia,Somali,Afder Zone,Dolobay Woreda
 Ethiopia,Somali,Afder Zone,Gura Bekeksa Woreda
@@ -1038,51 +968,155 @@ Ethiopia,Somali,Sitti Zone,Erer Woreda (Somali)
 Ethiopia,Somali,Sitti Zone,Hadigala Woreda
 Ethiopia,Somali,Sitti Zone,Maiso Woreda
 Ethiopia,Somali,Sitti Zone,Shinile Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Debub Bench Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Gide Bench Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Guraferda Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Mizan Aman Town Administration
-Ethiopia,SWEPR,Bench Sheko Zone,Semen Bench Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Shay Bench Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Sheko Woreda
-Ethiopia,SWEPR,Bench Sheko Zone,Siz Town Administration
-Ethiopia,SWEPR,Dawuro Zone,Disa Woreda
-Ethiopia,SWEPR,Dawuro Zone,Esira Woreda
-Ethiopia,SWEPR,Dawuro Zone,Gena Bosa Woreda
-Ethiopia,SWEPR,Dawuro Zone,Kechi Woreda
-Ethiopia,SWEPR,Dawuro Zone,Loma Woreda
-Ethiopia,SWEPR,Dawuro Zone,Mareka Woreda
-Ethiopia,SWEPR,Dawuro Zone,Mari Mansa Woreda
-Ethiopia,SWEPR,Dawuro Zone,Tercha Town Administration
-Ethiopia,SWEPR,Dawuro Zone,Tercha Zuria
-Ethiopia,SWEPR,Dawuro Zone,Tocha Woreda
-Ethiopia,SWEPR,Dawuro Zone,Zaba Woreda
-Ethiopia,SWEPR,Kefa Zone,Adiyo Woreda
-Ethiopia,SWEPR,Kefa Zone,Bita Woreda
-Ethiopia,SWEPR,Kefa Zone,Bonga Town Woreda
-Ethiopia,SWEPR,Kefa Zone,Chena Woreda
-Ethiopia,SWEPR,Kefa Zone,Cheta Woreda
-Ethiopia,SWEPR,Kefa Zone,Decha Woreda
-Ethiopia,SWEPR,Kefa Zone,Gesha Woreda
-Ethiopia,SWEPR,Kefa Zone,Gewata Woreda
-Ethiopia,SWEPR,Kefa Zone,Gimbo Woreda
-Ethiopia,SWEPR,Kefa Zone,Goba Woreda (SWEPR)
-Ethiopia,SWEPR,Kefa Zone,Sayilem Woreda
-Ethiopia,SWEPR,Kefa Zone,Shishoende Woreda
-Ethiopia,SWEPR,Kefa Zone,Tello Woreda
-Ethiopia,SWEPR,Konta Special Zone,Chebera Woreda
-Ethiopia,SWEPR,Konta Special Zone,Konta Woreda
-Ethiopia,SWEPR,Sheka Zone,Anderacha Woreda
-Ethiopia,SWEPR,Sheka Zone,Masha Town Administration
-Ethiopia,SWEPR,Sheka Zone,Masha Woreda
-Ethiopia,SWEPR,Sheka Zone,Teppi Town Administration
-Ethiopia,SWEPR,Sheka Zone,Yeki Woreda
-Ethiopia,SWEPR,West Omo Zone,Bero Woreda
-Ethiopia,SWEPR,West Omo Zone,Gachit Woreda
-Ethiopia,SWEPR,West Omo Zone,Gorigesha Woreda
-Ethiopia,SWEPR,West Omo Zone,Maji Woreda
-Ethiopia,SWEPR,West Omo Zone,Meinit Goldiya Woreda
-Ethiopia,SWEPR,West Omo Zone,Meinit Shasha Woreda
+Ethiopia,South Ethiopia ,Ale,Ale
+Ethiopia,South Ethiopia ,Ari,Baka Dawula
+Ethiopia,South Ethiopia ,Ari,Gelila Town Administration
+Ethiopia,South Ethiopia ,Ari,Jinka Town Administration
+Ethiopia,South Ethiopia ,Ari,North Ari
+Ethiopia,South Ethiopia ,Ari,South Ari
+Ethiopia,South Ethiopia ,Ari,Woba Ari
+Ethiopia,South Ethiopia ,Basketo,Laska Town Administration 
+Ethiopia,South Ethiopia ,Burji,Soyama Town Administration
+Ethiopia,South Ethiopia ,Burji,Soyama Zuria
+Ethiopia,South Ethiopia ,Gamo,Arbaminch Town Administration
+Ethiopia,South Ethiopia ,Gamo,Arbaminch Zuria
+Ethiopia,South Ethiopia ,Gamo,Birbir Town Adminstration
+Ethiopia,South Ethiopia ,Gamo,Bonke
+Ethiopia,South Ethiopia ,Gamo,Boreda
+Ethiopia,South Ethiopia ,Gamo,Chencha Town Adminstration
+Ethiopia,South Ethiopia ,Gamo,Chencha Zuria
+Ethiopia,South Ethiopia ,Gamo,Daramalo
+Ethiopia,South Ethiopia ,Gamo,Dita
+Ethiopia,South Ethiopia ,Gamo,Gacho Baba
+Ethiopia,South Ethiopia ,Gamo,Garda Martha
+Ethiopia,South Ethiopia ,Gamo,Gerese Town Administration
+Ethiopia,South Ethiopia ,Gamo,Gerese Zuria
+Ethiopia,South Ethiopia ,Gamo,Kamba Zuria
+Ethiopia,South Ethiopia ,Gamo,Kemba Town Administration
+Ethiopia,South Ethiopia ,Gamo,Kogota
+Ethiopia,South Ethiopia ,Gamo,Kutcha Alpha
+Ethiopia,South Ethiopia ,Gamo,Kutcha Zuria
+Ethiopia,South Ethiopia ,Gamo,Mirab Abaya
+Ethiopia,South Ethiopia ,Gamo,Selamber Town Administration
+Ethiopia,South Ethiopia ,Gardula,Gidole
+Ethiopia,South Ethiopia ,Gardula,Gidole Town Administration
+Ethiopia,South Ethiopia ,Gedeo,Bule
+Ethiopia,South Ethiopia ,Gedeo,Chelelektu Town Administration
+Ethiopia,South Ethiopia ,Gedeo,Chorso
+Ethiopia,South Ethiopia ,Gedeo,Dilla Town Administration
+Ethiopia,South Ethiopia ,Gedeo,Dilla Zuria
+Ethiopia,South Ethiopia ,Gedeo,Gedeb
+Ethiopia,South Ethiopia ,Gedeo,Gedeb Town Administration
+Ethiopia,South Ethiopia ,Gedeo,Kochore
+Ethiopia,South Ethiopia ,Gedeo,Rape
+Ethiopia,South Ethiopia ,Gedeo,Wenago
+Ethiopia,South Ethiopia ,Gedeo,Wenago Town Administration
+Ethiopia,South Ethiopia ,Gedeo,Yirgachefe
+Ethiopia,South Ethiopia ,Gedeo,Yirgachefe Town Administration
+Ethiopia,South Ethiopia ,Goffa,Beto Town Administration
+Ethiopia,South Ethiopia ,Goffa,Bulki Town Administration
+Ethiopia,South Ethiopia ,Goffa,Denba Gofa
+Ethiopia,South Ethiopia ,Goffa,Geze Gofa
+Ethiopia,South Ethiopia ,Goffa,Laha Town Administration
+Ethiopia,South Ethiopia ,Goffa,Melekoza
+Ethiopia,South Ethiopia ,Goffa,Melo Gada
+Ethiopia,South Ethiopia ,Goffa,Oyida
+Ethiopia,South Ethiopia ,Goffa,Sawla Town Administration
+Ethiopia,South Ethiopia ,Goffa,Uba Debretsehay
+Ethiopia,South Ethiopia ,Goffa,Zalla
+Ethiopia,South Ethiopia ,Konso,Karat Town Administration
+Ethiopia,South Ethiopia ,Konso,Karat Zuria
+Ethiopia,South Ethiopia ,Konso,Kena
+Ethiopia,South Ethiopia ,Konso,Kolme
+Ethiopia,South Ethiopia ,Konso,Segen Zuria
+Ethiopia,South Ethiopia ,Koore,Gorika
+Ethiopia,South Ethiopia ,Koore,Kelle Town Administration
+Ethiopia,South Ethiopia ,Koore,Sarmale
+Ethiopia,South Ethiopia ,South Omo,Bena Tsemay
+Ethiopia,South Ethiopia ,South Omo,Dasenech
+Ethiopia,South Ethiopia ,South Omo,Hamer
+Ethiopia,South Ethiopia ,South Omo,Malie
+Ethiopia,South Ethiopia ,South Omo,Ngangatom
+Ethiopia,South Ethiopia ,South Omo,Salamago
+Ethiopia,South Ethiopia ,South Omo,Turmi Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Abala Abaya
+Ethiopia,South Ethiopia ,Wolayita,Areka Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Bayira Koysha
+Ethiopia,South Ethiopia ,Wolayita,Bele Hawassa Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Bodit Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Boloso Sore
+Ethiopia,South Ethiopia ,Wolayita,Bolosso Bombe
+Ethiopia,South Ethiopia ,Wolayita,Damot Gale
+Ethiopia,South Ethiopia ,Wolayita,Damot Pulassa
+Ethiopia,South Ethiopia ,Wolayita,Damot Sore
+Ethiopia,South Ethiopia ,Wolayita,Damot Woyide
+Ethiopia,South Ethiopia ,Wolayita,Duguna Fango
+Ethiopia,South Ethiopia ,Wolayita,Gesuba Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Gununo Hamus Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Hobicha
+Ethiopia,South Ethiopia ,Wolayita,Humbo
+Ethiopia,South Ethiopia ,Wolayita,Kawo Koysha
+Ethiopia,South Ethiopia ,Wolayita,Kindo Didaye
+Ethiopia,South Ethiopia ,Wolayita,Kindo Koyisha
+Ethiopia,South Ethiopia ,Wolayita,Offa
+Ethiopia,South Ethiopia ,Wolayita,Sodo Town Administration
+Ethiopia,South Ethiopia ,Wolayita,Sodo Zuriya
+Ethiopia,South Ethiopia ,Wolayita,Tebela Town Administration
+Ethiopia,Southwest Ethiopia,Bench Sheko,Gide Bench
+Ethiopia,Southwest Ethiopia,Bench Sheko,Guraferda
+Ethiopia,Southwest Ethiopia,Bench Sheko,Mizan Aman Town Administration
+Ethiopia,Southwest Ethiopia,Bench Sheko,North Bench
+Ethiopia,Southwest Ethiopia,Bench Sheko,Shebench
+Ethiopia,Southwest Ethiopia,Bench Sheko,Sheko
+Ethiopia,Southwest Ethiopia,Bench Sheko,Siz Town Administration
+Ethiopia,Southwest Ethiopia,Bench Sheko,South Bench
+Ethiopia,Southwest Ethiopia,Dawro,Disa
+Ethiopia,Southwest Ethiopia,Dawro,Gena
+Ethiopia,Southwest Ethiopia,Dawro,Gessa Town Administration
+Ethiopia,Southwest Ethiopia,Dawro,Issara
+Ethiopia,Southwest Ethiopia,Dawro,Kechi
+Ethiopia,Southwest Ethiopia,Dawro,Loma
+Ethiopia,Southwest Ethiopia,Dawro,Mareka
+Ethiopia,Southwest Ethiopia,Dawro,Mari mansa
+Ethiopia,Southwest Ethiopia,Dawro,Tercha Town Administration
+Ethiopia,Southwest Ethiopia,Dawro,Tercha Zuria
+Ethiopia,Southwest Ethiopia,Dawro,Tocha
+Ethiopia,Southwest Ethiopia,Dawro,Zaba
+Ethiopia,Southwest Ethiopia,Kaffa,Adiyo
+Ethiopia,Southwest Ethiopia,Kaffa,Awurada Town Administration
+Ethiopia,Southwest Ethiopia,Kaffa,Bita
+Ethiopia,Southwest Ethiopia,Kaffa,Bonga Town Administration
+Ethiopia,Southwest Ethiopia,Kaffa,Chena
+Ethiopia,Southwest Ethiopia,Kaffa,Cheta
+Ethiopia,Southwest Ethiopia,Kaffa,Decha
+Ethiopia,Southwest Ethiopia,Kaffa,Deka Town Administration
+Ethiopia,Southwest Ethiopia,Kaffa,Gesha
+Ethiopia,Southwest Ethiopia,Kaffa,Gewata
+Ethiopia,Southwest Ethiopia,Kaffa,Gimbo
+Ethiopia,Southwest Ethiopia,Kaffa,Goba
+Ethiopia,Southwest Ethiopia,Kaffa,Saylem
+Ethiopia,Southwest Ethiopia,Kaffa,Shishinda Town Administration
+Ethiopia,Southwest Ethiopia,Kaffa,Shishoende
+Ethiopia,Southwest Ethiopia,Kaffa,Tello
+Ethiopia,Southwest Ethiopia,Kaffa,Wacha Town Administration
+Ethiopia,Southwest Ethiopia,Konta,Ameya Town Administration
+Ethiopia,Southwest Ethiopia,Konta,Ameya Zuriya Woreda
+Ethiopia,Southwest Ethiopia,Konta,Konta Koysha
+Ethiopia,Southwest Ethiopia,Sheka,Anderacha
+Ethiopia,Southwest Ethiopia,Sheka,Masha
+Ethiopia,Southwest Ethiopia,Sheka,Masha Town Administration
+Ethiopia,Southwest Ethiopia,Sheka,Teppi Town Administration
+Ethiopia,Southwest Ethiopia,Sheka,Yeki
+Ethiopia,Southwest Ethiopia,West Omo,Bachuma Town Administration
+Ethiopia,Southwest Ethiopia,West Omo,Bero
+Ethiopia,Southwest Ethiopia,West Omo,Gachit
+Ethiopia,Southwest Ethiopia,West Omo,Gorigesha
+Ethiopia,Southwest Ethiopia,West Omo,Jemu Town Administration
+Ethiopia,Southwest Ethiopia,West Omo,Maji
+Ethiopia,Southwest Ethiopia,West Omo,Maji-Tumi Town Administration
+Ethiopia,Southwest Ethiopia,West Omo,Menit Goldia
+Ethiopia,Southwest Ethiopia,West Omo,Menit Shasha
+Ethiopia,Southwest Ethiopia,West Omo,Suri
 Ethiopia,Tigray,Central Tigray Zone,Abergele Yechila Woreda
 Ethiopia,Tigray,Central Tigray Zone,Abiyi Adi Town Woreda
 Ethiopia,Tigray,Central Tigray Zone,Adiet Woreda
