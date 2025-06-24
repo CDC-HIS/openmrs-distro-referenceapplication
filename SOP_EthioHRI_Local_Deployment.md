@@ -21,24 +21,40 @@ This document provides a comprehensive checklist for deploying and updating comp
 This procedure updates the Ampath forms used in the system.
 
 ### Steps:
+#### 1. Navigate to Openmrs working directory
 ```bash
 cd /usr/share/tomcat/tomcat8/.OpenMRS/
-sudo rm -rf configuration/ampathform
+```
+#### 2. Remove the existing ampathforms directory
+```bash
+sudo rm -rf configuration/ampathforms
+```
+#### 3. Copy the new ampathforms directory to Openmrs configuration directory
+```bash
 sudo cp -R /path/to/new/ampathform/ configuration/
+```
+> Note: Replace "/path/to/new/ampathform/" with the location of the ampathforms directory from the deployment source
+#### 4. Clear the configuration checksums
+```bash
 sudo rm -f configuration_checksums/ampathforms
+```
+#### 5. Set correct ownership and permissions
+```bash
 sudo chown -R tomcat8:tomcat8 /usr/share/tomcat/tomcat8/.OpenMRS
 sudo chmod -R 775 /usr/share/tomcat/tomcat8/.OpenMRS
+```
+> Note: 775 permissions are more secure than 777 and sufficient for Tomcat.
+#### 6. Restart the Tomcat service
+```bash
 sudo systemctl restart tomcat
 ```
-
-> Note: 775 permissions are more secure than 777 and sufficient for Tomcat.
 
 ---
 
 ## 3. Custom Module Deployment
 
 ### 3.1 Preparing Modules for Deployment
-
+#### !!! For Development Team(Ignore by Deployment Team)
 #### Custom Modules:
 - https://github.com/CDC-HIS/openmrs-module-ethiori-mamba.git
 - https://github.com/CDC-HIS/openmrs-module-ethiohrireporting.git
@@ -67,7 +83,7 @@ mambaetl.analysis.db.openmrs_database=openmrs
 ```
 - If issues persist, drop `analytics_db` and restart tomcat:
 ```bash
-mysql -u root -p
+mysql -u openmrs -p
 DROP DATABASE analytics_db;
 sudo systemctl restart tomcat
 ```
@@ -76,7 +92,23 @@ sudo systemctl restart tomcat
 ```bash
 mvn clean install
 ```
-
+> Note: The above command must be executed for each module
+#### For Deployment Team Only
+ Copy contents of `openmrs-runtime.properties` file (inside mamba project folder) after line 9 tagged with `#Copy from here` into:
+  ```
+  /usr/share/tomcat/tomcat8/.OpenMRS/openmrs-runtime.properties
+  ```
+- Ensure these properties match:
+```
+mambaetl.analysis.db.username=openmrs
+mambaetl.analysis.db.password=Pd123\#@!
+mambaetl.analysis.db.openmrs_database=openmrs
+```
+- If issues persist or updating the existing mamba deployment, drop `analytics_db` 
+```bash
+mysql -u openmrs -p
+DROP DATABASE analytics_db;
+```
 ### 3.2 Deploying Custom Modules
 ```bash
 cd /usr/share/tomcat/tomcat8/.OpenMRS/modules/
@@ -84,7 +116,7 @@ sudo rm -f name-of-module-to-update.omod
 sudo cp /path/to/new/modulename.omod .
 sudo chown -R tomcat8:tomcat8 /usr/share/tomcat/tomcat8/.OpenMRS
 sudo chmod -R 775 /usr/share/tomcat/tomcat8/.OpenMRS
-sudo systemctl restart tomcat8
+sudo systemctl restart tomcat
 ```
 
 > NB: `/path/to/new/modulename.omod` is usually `projectfolder/omod/target/projectname.omod`
