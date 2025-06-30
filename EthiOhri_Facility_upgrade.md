@@ -4,13 +4,14 @@ This document provides a comprehensive checklist for deploying and updating comp
 Adherence to these procedures is critical for maintaining system integrity and ensuring successful deployments.
 
 ---
+Warning Make sure to make backup for the folder .OpenMRS proir to proceeding to the following steps
 
 ## 1. Prerequisites & Safety Precautions
 
 - **System Access:** Administrative (sudo) privileges are required for all steps.
 - **Deployment Assets:** Ensure the following are ready:
-  - Updated `ampathform` directory
-  - Custom module `ethiohri-reports-1.0.0-SNAPSHOT.omod`,`ethiohrihelper-1.0.0-SNAPSHOT.omod`,`ethiohri-mamba-1.0.3-SNAPSHOT.omod` files
+  - Updated `configuration` directory
+  -  `modules` files
   - Frontend files (`frontend.zip`)
   - Scripts `caregiver_concept_to_person.sql`,
   - Tools `data extraction tools`
@@ -19,7 +20,7 @@ Adherence to these procedures is critical for maintaining system integrity and e
 
 ---
 
-## 2. JSON Form Deployment
+## 2. Configuration Deployment
 
 This procedure updates the Ampath forms used in the system.
 
@@ -28,40 +29,25 @@ This procedure updates the Ampath forms used in the system.
 ```bash
 cd /usr/share/tomcat/tomcat8/.OpenMRS/
 ```
-#### 2. Remove the existing ampathforms directory
+#### 2. Remove the existing configuration directory
 ```bash
-sudo rm -rf configuration/ampathforms
+sudo rm -rf configuration
 ```
-#### 3. Copy the new ampathforms directory to Openmrs configuration directory
+#### 3. Copy the new configuratoin directory to .OpenMRS directory
 ```bash
-sudo cp -R /ampathform/ configuration/
+sudo cp -R configuration .OpenMRS/
 ```
-> Note: Replace "/ampathform/" with the location of the ampathforms directory from the deployment source
+> Note: Replace "configuration_checksums" with the location of the configuration directory from the deployment source
 #### 4. Clear the configuration checksums
 ```bash
-sudo rm -f configuration_checksums/ampathforms
+sudo rm -f configuration_checksums
 ```
-#### 5. Set correct ownership and permissions
-```bash
-sudo chown -R tomcat8:tomcat8 /usr/share/tomcat/tomcat8/.OpenMRS
-sudo chmod -R 775 /usr/share/tomcat/tomcat8/.OpenMRS
-```
-> Note: 775 permissions are more secure than 777 and sufficient for Tomcat.
-#### 6. Restart the Tomcat service
-```bash
-sudo systemctl restart tomcat
-```
-
 ---
 
-## 3. Custom Module Deployment
+## 3. Module Deployment
 
 ### 3.1 Preparing Modules for Deployment
-#### !!! For Development Team(Ignore by Deployment Team)
-#### Custom Modules:
-- ethiohri-reports-1.0.0-SNAPSHOT.omod
-- ethiohrihelper-1.0.0-SNAPSHOT.omod
-- ethiohri-mamba-1.0.3-SNAPSHOT.omod
+
 
 #### Considerations (Mamba):
 
@@ -83,7 +69,6 @@ sudo systemctl restart tomcat
 ```
 
 > Note: The above command must be executed for each module
-#### For Deployment Team Only
  Copy contents of `openmrs-runtime.properties` file (inside mamba project folder) after line 9 tagged with `#Copy from here` into:
   ```
   /usr/share/tomcat/tomcat8/.OpenMRS/openmrs-runtime.properties
@@ -100,12 +85,22 @@ mysql -u openmrs -p
 DROP DATABASE analytics_db;
 ```
 ### 3.2 Deploying Custom Modules
+
+#### CD folder from the directory `/usr/share/tomcat/tomcat8/.OpenMRS/`
+>  Note: Make sure to make a copy of the existing `modules` folder
+
 ```bash
-cd /usr/share/tomcat/tomcat8/.OpenMRS/modules/
-sudo rm -f ethiohri-reports-1.0.0-SNAPSHOT.omod ethiohrihelper-1.0.0-SNAPSHOT.omod ethiohri-mamba-1.0.3-SNAPSHOT.omod
-sudo cp /path/to/new/ethiohri-reports-1.0.0-SNAPSHOT.omod .
-sudo cp /path/to/new/ethiohrihelper-1.0.0-SNAPSHOT.omod .
-sudo cp /path/to/new/ethiohri-mamba-1.0.3-SNAPSHOT.omod .
+cd /usr/share/tomcat/tomcat8/.OpenMRS
+```
+#### Remove existing folder
+```bash
+sudo rm -rf modules/
+```
+##### Copy the new modules into .OpenMRS directory
+  ```bash
+    cp -rf modules .OpenMRS/
+ ```
+```bash
 sudo chown -R tomcat8:tomcat8 /usr/share/tomcat/tomcat8/.OpenMRS
 sudo chmod -R 775 /usr/share/tomcat/tomcat8/.OpenMRS
 sudo systemctl restart tomcat
@@ -113,17 +108,51 @@ sudo systemctl restart tomcat
 
 ---
 
+#### 3.3 Clean Serialized Objects table:
+```bash
+mysql -u openmrs -p
+```
+ 
+```bash
+use openmrs;
+```
+```bash
+delete from serialized_object;
+```
+```bash
+exit;
+```
+#### 3.4 Run the following script to update care gaver record:
+  ```bash
+  mysql -u openmrs -p openmrs < caregiver_concept_to_person.sql
+```
+> #### Note Enter password for the mysql openmrs user
+  
 ## 4. Frontend Application Build
 
 ### Steps:
 ```bash
 cd /usr/share/tomcat/tomcat8/.OpenMRS
 ```
-```bash unzip frontend.zip -d .```
+```bash 
+unzip frontend.zip -d /usr/share/tomcat/tomcat8/.OpenMRS
+```
 
 ---
 
-## 5. Concept Dictionary Import
+## 5. Set correct ownership and permissions
+```bash
+sudo chown -R tomcat8:tomcat8 /usr/share/tomcat/tomcat8/.OpenMRS
+sudo chmod -R 775 /usr/share/tomcat/tomcat8/.OpenMRS
+```
+> Note: 775 permissions are more secure than 777 and sufficient for Tomcat.
+#### 5.1. Restart the Tomcat service
+```bash
+sudo systemctl restart tomcat
+```
+
+
+#### 6. Concept Dictionary Import
 
 ### Steps:
 1. Login to OpenMRS web interface with administrator account.
@@ -135,49 +164,7 @@ cd /usr/share/tomcat/tomcat8/.OpenMRS
 5. Go to the **Open Concept Lab** section.
 6. Click **Import from File**.
 7. Select the `.zip` file and click **Import**.
-
----
-
-## 6. Master Database Synchronization
-
-### Steps:
-```bash
-cd /usr/share/tomcat/tomcat8/.OpenMRS
-sudo nano openmrs-runtime.properties
-```
-
-- Change the `connection.url` to:
-```
-connection.url=jdbc:mysql://localhost:3306/openmrs_master?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&sessionVariables=default_storage_engine%3DInnoDB
-```
-
-- Save and exit.
-
-```bash
-sudo rm -rf configuration_checksums
-sudo systemctl restart tomcat
-```
-
-- Wait for application to fully start.
-- If needed, follow **Section 5** to import concepts into the master DB.
-
-### Revert Database Connection:
-```bash
-sudo nano openmrs-runtime.properties
-```
-- Change database back to `openmrs` (or your original DB name).
-
-```bash
-sudo systemctl restart tomcat8
-```
-
-### Clean Serialized Objects table:
-```bash
-mysql -u openmrs -p
-use openmrs_master;
-delete from serialized_object;
-```
-
+   
 ---
 
 **End of SOP**
