@@ -58,6 +58,19 @@
       "src": "ethiohri_logo_light.svg"
     }
   },
+   "@icap-ethiopia/esm-ethiohri-app": {
+    "extensionSlots": {
+      "hiv-care-and-treatment-slot": {
+        "remove": [
+          "post-exposure-ext",
+          "program-management-ext",
+          "index-case-testing-ext",
+          "prep-ext",
+          "hiv-testing-service-ext"
+        ]
+      }
+    }
+  },
   "@openmrs/esm-login-app": {
     "logo": {
       "src": "ethiohri_logo_dark.svg"
