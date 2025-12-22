@@ -4,3 +4,4 @@ Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,L
 d956f302-1723-4eca-9548-fb7e66706d34,0,UAN,Unique ART Number,0,,,,NOT_USED,UNIQUE
 4a5e3b09-9e4a-4970-baab-513a4d9ce355,0,PHRH,People at High risk for HIV Infection,0,,,,,
 5b979f2e-9190-47b4-b8e7-2a1d43b4c7a6,0,NCD,Non Communicable Diseases,0,,,,,
+83378ca5-dc8f-434c-8bbe-5035be6b7a74,0,PrEP UIC,PrEP UIC,0,,,,,
